@@ -91,6 +91,21 @@ This creates three visualizations in the `figures/` directory:
 - **class_distribution.png** - Match outcome distribution (H/D/A)
 - **confusion_matrix.png** - Model prediction accuracy by class
 - **feature_correlations.png** - Most predictive features
+- 
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/a26a5a54-05c3-4812-a2c5-23bde908ba19" width="350">
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/a5d22d8e-27d4-4577-8406-d5adbc7d2a22" width="350">
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/2bda5b1d-9e6d-478c-8e9a-e14a474b65ad" width="350">
+    </td>
+  </tr>
+</table>
+
 
 ## ML Approach
 
