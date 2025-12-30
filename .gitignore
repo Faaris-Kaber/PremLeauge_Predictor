@@ -1,0 +1,40 @@
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# virtual environments
+.venv/
+venv/
+ENV/
+
+# ide
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# data files (too large for git)
+data/raw/*.csv
+data/processed/*.csv
+
+# trained models (too large for git)
+saved_models/*.pth
+
+# generated figures
+figures/*.png
+
+# os files
+.DS_Store
+Thumbs.db
+
+# logs
+*.log
+
