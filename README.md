@@ -18,12 +18,12 @@ A machine learning pipeline that predicts English Premier League match outcomes 
 git clone https://github.com/yourusername/PL_Predictor.git
 cd PL_Predictor
 
-# Create virtual environment
+# Create and activate virtual environment
 python -m venv .venv
 .venv\Scripts\activate  # Windows
 # source .venv/bin/activate  # Linux/Mac
 
-# Install in development mode
+# Install dependencies
 pip install -e .
 ```
 
@@ -48,12 +48,6 @@ python -m epl_predictor.features.build_features
 python -m epl_predictor.models.train_model
 ```
 
-**Tip (Windows):** if you see `ModuleNotFoundError: No module named 'epl_predictor'`, you're using the wrong Python. Use the repo venv explicitly:
-
-```bash
-.\.venv\Scripts\python.exe -m epl_predictor.models.train_model
-```
-
 ## Making Predictions
 
 Once the model is trained, predict match outcomes:
@@ -62,7 +56,7 @@ Once the model is trained, predict match outcomes:
 python -m epl_predictor.predict --home "Arsenal" --away "Chelsea"
 ```
 
-Or use the PowerShell wrapper script (always uses the venv interpreter):
+Or use the PowerShell wrapper script:
 
 ```powershell
 .\scripts\run_predict.ps1 -HomeTeam "Arsenal" -AwayTeam "Chelsea"
